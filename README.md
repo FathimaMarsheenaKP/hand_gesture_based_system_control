@@ -1,1 +1,1 @@
-A hand gesture based system control using mediapipe and computer vison
+A hand gesture based system control using mediapipe and computer visons
