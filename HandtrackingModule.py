@@ -17,7 +17,7 @@ class handDetector():
         self.hands = self.mpHands.Hands(self.mode, self.maxHands,self.modelComplexity, self.detectionCon,self.trackCon) #instance variable that holds a reference to a Hands object
         self.mpDraw = mp.solutions.drawing_utils #imports the drawing utility functions provided by the MediaPipe library
 
-# Track the hands in our input image
+# Track the hands in our input image 
 # Converts the image to RGB and processes the RGB image (mediapipe uses rgb format but default in opencv is bgr)
 # Draws the hand landmarks on the image
 # Finally draws the hand connections.
